@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %} 
+
+{% block body %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center">
+              <h2>Criar Produto</h2>
+        </div>
+        <hr>
+    </div>
+
+    <div class="col-12">
+        {% include 'admin/product/_form.html.twig' with {'buttonText' : 'Criar Produto'} %}
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+
+{{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+
+{{ form_row(form.nome, {'attr': {'placeholder': 'Informe aqui o nome do produto'}}) }}
+
+{{ form_row(form.description) }}
+
+{{ form_row(form.body) }}
+
+{{ form_row(form.price) }}
+
+{{ form_row(form.photos) }}
+
+{{ form_row(form.category) }}
+
+<button type="submit" class="btn btn-lg btn-success"> {{ buttonText }}</buton>
+
+{{ form_end(form)}}
